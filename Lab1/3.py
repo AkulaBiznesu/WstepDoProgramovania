@@ -20,3 +20,4 @@ elif i == 4:
 elif i == 5:
    print(x**y)
 else: print("dumb")
+
