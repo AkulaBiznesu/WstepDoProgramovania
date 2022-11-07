@@ -1,6 +1,10 @@
 n = int(input("How many students in the class? "))
-while n > 1:
-    for i in range(n):
-        m = (int(input("set the grade: ")))
-        break
-else: print(m)
+i = 1
+suma = 0
+while i <= n:
+    x = int(input(f"mark:{i}"))
+    i = i+1
+    suma = suma + x
+sred = suma/n
+print(sred)
+
