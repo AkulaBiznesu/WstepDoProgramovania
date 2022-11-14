@@ -3,6 +3,7 @@ i = 1
 suma = 0
 while i <= n:
     x = int(input(f"mark:{i}"))
+    if 0<x or x>100:continue
     i = i+1
     suma = suma + x
 sred = suma/n
