@@ -13,5 +13,14 @@ for i in range(u):
     b_2.append(x)
 print(b_2)
 
+g = int(input("insert"))
+if g in b:
+    print("1 list")
+elif g in b_2:
+    print("2 list")
+else:
+    print("no")
 
-
+b_3 = b+b_2
+b_3.sort()
+print(b_3)
